@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.masthead {
+  height: 50vh;
+  min-height: 500px;
+  background-color: rgba(136, 192, 174, 0.61);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.auth {
+    padding-top: 102.66667px
+}
+
+.auth__inner {
+    min-height: calc(100vh - 188px);
+    -js-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+@media (min-width: 992px) {
+    .auth__inner {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+}
+
+@media (min-width: 992px) {
+    .auth__media {
+        width: 50%;
+        -ms-flex-negative: 0;
+        flex-shrink: 0
+    }
+}
+
+.auth__media img, .auth__media svg {
+    max-height: 150px;
+    max-width: 90%;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+@media (min-width: 600px) {
+    .auth__media img, .auth__media svg {
+        max-height: 300px
+    }
+}
+
+@media (min-width: 992px) {
+    .auth__media img, .auth__media svg {
+        max-height: 400px
+    }
+}
+
+.auth__auth {
+    text-align: center
+}
+
+@media (min-width: 992px) {
+    .auth__auth {
+        width: 50%;
+        -ms-flex-negative: 0;
+        flex-shrink: 0
+    }
+}

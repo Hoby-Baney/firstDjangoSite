@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block title %} Course Share {% endblock %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+    <!-- Page Content -->
+    <section class="py-5">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#department">開課系所</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#profile">課程類別</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-toggle="tab" href="#">教師姓名</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " data-toggle="tab" href="#">課程時段</a>
+            </li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active show" id="department">
+
+                <div class="container">
+                    <div class="row" style="margin-top: 20px;margin-bottom: 20px;">
+                        <label class="col-sm-1 align-self-sm-center">學院</label>
+                        <div class="dropdown show">
+                            <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button"
+                               id="dropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <label class="col-sm-1 align-self-sm-center">系所</label>
+                        <div class="dropdown show ">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown link
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary ">Search</button>
+                    </div>
+                    <form class="form-inline">
+                        <label class="sr-only" for="inlineFormInputName2">Name</label>
+                        <input type="text" class="form-control mb-2 mr-sm-2 dropdown" id="inlineFormInputName2"
+                               placeholder="Jane Doe">
+
+                        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+                        <div class="input-group mb-2 mr-sm-2">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">@</div>
+                            </div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                   placeholder="Username">
+                        </div>
+
+                        <div class="form-check mb-2 mr-sm-2">
+                            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                                Remember me
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+
+                <div class="container">
+                    <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                 <div class="container">
+                    <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                 <div class="container">
+                    <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                 <div class="container">
+                    <h2>Hover Rows</h2>
+                    <p>The .table-hover class enables a hover state (grey background on mouse over) on table rows:</p>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                        </tr>
+                        <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="profile">
+                <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation
+                    +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table
+                    craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts
+                    ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus
+                    mollit.</p>
+            </div>
+            <div class="tab-pane fade" id="dropdown1">
+                <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro
+                    fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer,
+                    iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
+                    Leggings gentrify squid 8-bit cred pitchfork.</p>
+            </div>
+            <div class="tab-pane fade" id="dropdown2">
+                <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master
+                    cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party
+                    locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before
+                    they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
